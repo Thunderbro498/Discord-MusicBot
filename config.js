@@ -5,8 +5,8 @@ module.exports = {
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/a9SHDpD", //Support Server Link
   Token: process.env.Token || "", //Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "", //Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "", //Discord Client Secret
+  ClientID: process.env.Discord_ClientID || "851832897795260456", //Discord Client ID
+  ClientSecret: process.env.Discord_ClientSecret || "ODUxODMyODk3Nzk1MjYwNDU2.YL-BNQ.k0hZR7GsRU5_loP3HQ6OTU309c4", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   CallbackURL: "/api/callback", //Discord OAuth2 Callback URL
   "24/7": false, //If you want the bot to be stay in the vc 24/7
